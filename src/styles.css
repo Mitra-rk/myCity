@@ -45,6 +45,46 @@ header a {
   text-transform: uppercase;
 }
 
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/footerBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer section {
+  margin: 20px 35px;
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr;
+}
+footer div {
+  margin-right: 25px;
+}
+footer h3 {
+  font-size: 20px;
+  color: white;
+}
+footer p {
+  font-size: 18px;
+  color: white;
+  opacity: 0.6;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  color: white;
+  list-style: none;
+  opacity: 0.6;
+  padding: 5px;
+}
+footer a {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
 @media (max-width: 900px) {
   header {
     padding: 50px 0;
