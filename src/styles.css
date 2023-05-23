@@ -57,10 +57,9 @@ footer section {
   margin: 20px 35px;
   display: grid;
   grid-template-columns: 2fr 3fr 3fr;
+  grid-gap: 64px;
 }
-footer div {
-  margin-right: 25px;
-}
+
 footer h3 {
   font-size: 20px;
   color: white;
@@ -98,10 +97,10 @@ footer a {
   header h3 {
     font-size: 20px 0;
   }
-  footer{
+  footer {
     padding: 20px;
   }
-  footer section{
+  footer section {
     margin: 5px 0;
     grid-template-columns: 1fr 1fr 4fr;
   }
